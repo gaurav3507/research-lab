@@ -1,7 +1,9 @@
 # park-grass-crl
 
 Lane: park-grass-crl
-Status: STAGE 1 written, sweep pending
+Status: PARKED (22 Sep 2026). The open e-RA release is aggregated to one row per
+(plot, sub_plot, year), n per environment <= 10, so the lane is outside the NMIN 200
+gate regime; parked pending an e-RA request for per-quadrat records.
 
 The Stage 1 block and data-feasibility checklist live in STAGE1.md in this folder.
 

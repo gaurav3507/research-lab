@@ -1,3 +1,29 @@
+# STATUS UPDATE 22 Sep 2026
+
+Lane status: PARKED.
+
+Data reality (probe_01): the open e-RA release is aggregated to one row per
+(plot, sub_plot, year). There are no per-quadrat records. n per environment is at
+most 10 (10 survey years for 1991-2000; 3 for 2010-2012).
+
+Gate operating regime: the imported screen arithmetic (03_screen.py) is calibrated
+at NMIN 200 samples per environment. With n per environment <= 10 this lane is far
+outside that regime.
+
+Decision: PARKED pending an e-RA request for the per-quadrat records. Kill the lane
+if those records are unavailable, or if they provide under 50 rows per sub-plot.
+
+probe_02 step-0 results: OUT-OF-REGIME, NOT A HARNESS VERDICT. Two reasons:
+  1. The pseudo-environment size used was 4 (the smallest real treatment sub-plot n
+     in yearly samples), far below the calibrated NMIN of 200.
+  2. The "fire" threshold of 1.1 in probe_02_step0.py is a script-local cutoff; it is
+     not present in 03_screen.py, whose step-0 reports a reference band (expect
+     mean_ratio ~ 1.00) rather than applying a hard 1.1 pass/fail cutoff.
+The results in results/probe_02/ are kept, not deleted, but must be read as a dry run
+of the plumbing, not as a pass/fail on the data.
+
+---
+
 # Lane: park-grass-crl
 # Stage 1 block + data-feasibility checklist
 
@@ -71,8 +97,11 @@ the whole CRL literature.
 (clean mechanism detectability, like HCP), useful but not a headline.
 
 **Kill criteria (any one kills the lane as a headline; the first two kill it entirely).**
-1. Fewer than 8 treatment sub-plots survive NMIN quadrat-samples per environment after
-   quality filtering (environment starvation; the gate will just count environments).
+1. Fewer than 8 sub-plots with n >= 100 samples (environment starvation).
+   Note (22 Sep 2026): the original wording counted environments, not samples. It read
+   "Fewer than 8 treatment sub-plots survive NMIN quadrat-samples per environment after
+   quality filtering (environment starvation; the gate will just count environments)."
+   Corrected to count sub-plots by sample count (n >= 100).
 2. Step-0 gate on shuffled quadrats within unmanured plots fires above 10 percent
    (harness broken or compositional artefact).
 3. Effective dimensionality (dims_above_2x, size-matched null) is 1 across all
@@ -127,6 +156,9 @@ Legend: [V] verified from e-RA pages on 22 Sep 2026; [A] assumed, verify on down
    sub-plots a/b/c/d (target pH 7 / 6 / 5 / unlimed since 1965). Verify plot IDs,
    which plots are unmanured (plot 3 and plot 12 by memory), and N doses
    (N1/N2/N3 ~ 48/96/144 kg N/ha by memory). Do not hardcode until read from the file.
+   RESOLVED 22 Sep 2026 (probe_01, read from the file): unmanured (Nil) plots =
+   {2, 3, 12} (not just 3 and 12); lime sub-plot letters are a/b/c/d PLUS an extra
+   level "s"; N1/N2/N3 = 48/96/144 confirmed; ~19 main plots confirmed.
 5. [A] Rothamsted meteorological series (rainfall, temperature since 1853) is in e-RA
    and can serve as a year-level covariate for the M2 drift null.
 
