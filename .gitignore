@@ -21,3 +21,7 @@ venv/
 .venv/
 env/
 .env/
+
+# park-grass-crl raw data (keep the manifest tracked)
+lanes/park-grass-crl/data/*
+!lanes/park-grass-crl/data/MANIFEST.md
