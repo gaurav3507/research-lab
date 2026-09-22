@@ -1,4 +1,4 @@
-# Never commit data or results (rule 2)
+# Never commit data or results
 results/
 data/
 

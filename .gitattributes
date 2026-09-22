@@ -1,0 +1,3 @@
+# Normalize line endings across Windows, Mac, and the A100.
+# Store everything with LF in the repo; check out native on each machine.
+* text=auto eol=lf
