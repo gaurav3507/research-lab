@@ -1,0 +1,676 @@
+{
+  "1991-2000": {
+    "protocol": "1991-2000",
+    "xlsx": "rpg5_species_1991-2000_01.xlsx",
+    "sheet_names": [
+      "README",
+      "fields_metadata",
+      "species_data",
+      "species_list_dimension_data",
+      "n_factor_data",
+      "p_factor_data",
+      "k_factor_data",
+      "mg_factor_data",
+      "na_factor_data",
+      "si_factor_data",
+      "liming_factor_data",
+      "fym_factor_data",
+      "fm_factor_data",
+      "pm_factor_data",
+      "Sheet1",
+      "notes_data"
+    ],
+    "distinct_plot_subplot": 69,
+    "distinct_plot_split_subplot": 105,
+    "n_rows": 934,
+    "years": [
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000
+    ],
+    "n_years": 10,
+    "quadrats_per_subplot_year": {
+      "min": 1,
+      "median": 1.0,
+      "max": 1,
+      "note": "rows per (plot,sub_plot,year); the open release gives one aggregated percent-biomass row per sub-plot-year, so per-quadrat data are NOT present"
+    },
+    "species_count": 68,
+    "zero_entries": 46513,
+    "nan_entries": 544,
+    "total_species_entries": 63512,
+    "zero_fraction": 0.7323497921652601,
+    "unmanured_plots": [
+      "2",
+      "3",
+      "12"
+    ],
+    "unmanured_treatment_labels": [
+      "Nil"
+    ],
+    "zero_current_rate_plots": [
+      "2",
+      "3",
+      "12",
+      "13",
+      "19"
+    ],
+    "lime_subplot_letters": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "s"
+    ],
+    "n_dose_levels": [
+      {
+        "n_factor_level": "(N*2)",
+        "n_rate": "0"
+      },
+      {
+        "n_factor_level": "(N2)",
+        "n_rate": "0"
+      },
+      {
+        "n_factor_level": "0",
+        "n_rate": "0"
+      },
+      {
+        "n_factor_level": "N*",
+        "n_rate": "30"
+      },
+      {
+        "n_factor_level": "N*",
+        "n_rate": "0"
+      },
+      {
+        "n_factor_level": "N*1",
+        "n_rate": "48"
+      },
+      {
+        "n_factor_level": "N*2",
+        "n_rate": "96"
+      },
+      {
+        "n_factor_level": "N1",
+        "n_rate": "48"
+      },
+      {
+        "n_factor_level": "N2",
+        "n_rate": "96"
+      },
+      {
+        "n_factor_level": "N3",
+        "n_rate": "144"
+      }
+    ],
+    "treatment_table": [
+      {
+        "plot": "1",
+        "treatments": "N1",
+        "n_factor_level": "N1",
+        "n_rate": "48",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "10",
+        "treatments": "N2+PNaMg",
+        "n_factor_level": "N2",
+        "n_rate": "96",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "11",
+        "treatments": "N3+PKNaMg",
+        "n_factor_level": "N3",
+        "n_rate": "144",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "11",
+        "treatments": "N3+PKNaMgSi",
+        "n_factor_level": "N3",
+        "n_rate": "144",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "12",
+        "treatments": "Nil",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "13",
+        "treatments": "FYM/FM",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "13",
+        "treatments": "(FYM/FM)",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "14",
+        "treatments": "N*2+PKNaMg",
+        "n_factor_level": "N*2",
+        "n_rate": "96",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "14",
+        "treatments": "(N*2)PKNaMg",
+        "n_factor_level": "(N*2)",
+        "n_rate": "0",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "15",
+        "treatments": "PKNaMg",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "16",
+        "treatments": "N*1+PKNaMg",
+        "n_factor_level": "N*1",
+        "n_rate": "48",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "17",
+        "treatments": "N*1",
+        "n_factor_level": "N*1",
+        "n_rate": "48",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "18",
+        "treatments": "N2+KNaMg",
+        "n_factor_level": "N2",
+        "n_rate": "96",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "19",
+        "treatments": "FYM",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "2",
+        "treatments": "Nil",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "2",
+        "treatments": "K",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "20",
+        "treatments": "FYM/N*PK",
+        "n_factor_level": "N*",
+        "n_rate": "0",
+        "p_factor_level": "P*",
+        "p_rate": "0",
+        "k_factor_level": "K*",
+        "k_rate": "0"
+      },
+      {
+        "plot": "20",
+        "treatments": "FYM/N*PK",
+        "n_factor_level": "N*",
+        "n_rate": "30",
+        "p_factor_level": "P*",
+        "p_rate": "15",
+        "k_factor_level": "K*",
+        "k_rate": "45"
+      },
+      {
+        "plot": "3",
+        "treatments": "Nil",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "4",
+        "treatments": "N2+P",
+        "n_factor_level": "N2",
+        "n_rate": "96",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "4",
+        "treatments": "P",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "6",
+        "treatments": "N1+PKNaMg",
+        "n_factor_level": "N1",
+        "n_rate": "48",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "7",
+        "treatments": "PKNaMg",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "8",
+        "treatments": "PNaMg",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "9",
+        "treatments": "N2+(N2)PKNaMg",
+        "n_factor_level": "N2",
+        "n_rate": "96",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "9",
+        "treatments": "(N2)PKNaMg",
+        "n_factor_level": "(N2)",
+        "n_rate": "0",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      }
+    ],
+    "target_ph_design_constant": {
+      "a": "7",
+      "b": "6",
+      "c": "5",
+      "d": "unlimed"
+    }
+  },
+  "2010-2012": {
+    "protocol": "2010-2012",
+    "xlsx": "rpg5_species_ 2010-2012_01.xlsx",
+    "sheet_names": [
+      "README",
+      "fields_metadata",
+      "species_data",
+      "species_list_dimension_data",
+      "n_factor_data",
+      "p_factor_data",
+      "k_factor_data",
+      "mg_factor_data",
+      "na_factor_data",
+      "si_factor_data",
+      "liming_factor_data",
+      "fym_factor_data",
+      "fm_factor_data",
+      "pm_factor_data",
+      "notes_data"
+    ],
+    "distinct_plot_subplot": 26,
+    "distinct_plot_split_subplot": 40,
+    "n_rows": 120,
+    "years": [
+      2010,
+      2011,
+      2012
+    ],
+    "n_years": 3,
+    "quadrats_per_subplot_year": {
+      "min": 1,
+      "median": 1.0,
+      "max": 1,
+      "note": "rows per (plot,sub_plot,year); the open release gives one aggregated percent-biomass row per sub-plot-year, so per-quadrat data are NOT present"
+    },
+    "species_count": 68,
+    "zero_entries": 5588,
+    "nan_entries": 0,
+    "total_species_entries": 8160,
+    "zero_fraction": 0.6848039215686275,
+    "unmanured_plots": [
+      "2",
+      "3"
+    ],
+    "unmanured_treatment_labels": [
+      "Nil"
+    ],
+    "zero_current_rate_plots": [
+      "2",
+      "3",
+      "13"
+    ],
+    "lime_subplot_letters": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "n_dose_levels": [
+      {
+        "n_factor_level": "(N*2)",
+        "n_rate": "0"
+      },
+      {
+        "n_factor_level": "(N2)",
+        "n_rate": "0"
+      },
+      {
+        "n_factor_level": "0",
+        "n_rate": "0"
+      },
+      {
+        "n_factor_level": "N*1",
+        "n_rate": "48"
+      },
+      {
+        "n_factor_level": "N*2",
+        "n_rate": "96"
+      },
+      {
+        "n_factor_level": "N1",
+        "n_rate": "48"
+      },
+      {
+        "n_factor_level": "N2",
+        "n_rate": "96"
+      },
+      {
+        "n_factor_level": "N3",
+        "n_rate": "144"
+      }
+    ],
+    "treatment_table": [
+      {
+        "plot": "1",
+        "treatments": "N1",
+        "n_factor_level": "N1",
+        "n_rate": "48",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "10",
+        "treatments": "N2+PNaMg",
+        "n_factor_level": "N2",
+        "n_rate": "96",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "11",
+        "treatments": "N3+PKNaMg",
+        "n_factor_level": "N3",
+        "n_rate": "144",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "11",
+        "treatments": "N3+PKNaMgSi",
+        "n_factor_level": "N3",
+        "n_rate": "144",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "13",
+        "treatments": "(FYM/FM)",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "13",
+        "treatments": "FYM/FM",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "14",
+        "treatments": "(N*2)PKNaMg",
+        "n_factor_level": "(N*2)",
+        "n_rate": "0",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "14",
+        "treatments": "N*2+PKNaMg",
+        "n_factor_level": "N*2",
+        "n_rate": "96",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "17",
+        "treatments": "N*1",
+        "n_factor_level": "N*1",
+        "n_rate": "48",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "2",
+        "treatments": "K",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "2",
+        "treatments": "Nil",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "3",
+        "treatments": "Nil",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "0",
+        "p_rate": "0",
+        "k_factor_level": "0",
+        "k_rate": "0"
+      },
+      {
+        "plot": "7",
+        "treatments": "PKNaMg",
+        "n_factor_level": "0",
+        "n_rate": "0",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "9",
+        "treatments": "N2PKNaMg",
+        "n_factor_level": "(N2)",
+        "n_rate": "0",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      },
+      {
+        "plot": "9",
+        "treatments": "N2+(N2)PKNaMg",
+        "n_factor_level": "N2",
+        "n_rate": "96",
+        "p_factor_level": "P",
+        "p_rate": "35",
+        "k_factor_level": "K",
+        "k_rate": "225"
+      }
+    ],
+    "target_ph_design_constant": {
+      "a": "7",
+      "b": "6",
+      "c": "5",
+      "d": "unlimed"
+    }
+  },
+  "stage1_A_verdicts": [
+    {
+      "item": "[A] unmanured plots are 3 and 12",
+      "verdict": "CONTRADICTED",
+      "value_found": "1991-2000 unmanured plots = ['2', '3', '12']"
+    },
+    {
+      "item": "[A] N1/N2/N3 = 48/96/144 kg N/ha",
+      "verdict": "CONFIRMED",
+      "value_found": "N1=48 N2=96 N3=144"
+    },
+    {
+      "item": "[A] about 20 main plots",
+      "verdict": "CONFIRMED",
+      "value_found": "1991-2000 distinct main plots = 19"
+    },
+    {
+      "item": "[A] lime sub-plots a/b/c/d exist",
+      "verdict": "CONFIRMED",
+      "value_found": "lime letters = ['a', 'b', 'c', 'd', 's']"
+    },
+    {
+      "item": "[A] about 100 sub-plots surveyed 1991-2000",
+      "verdict": "CONFIRMED",
+      "value_found": "distinct (plot,split_plot,sub_plot) 1991-2000 = 105 (distinct (plot,sub_plot) = 69)"
+    },
+    {
+      "item": "[A] 2010-2012 covers SELECTED plots only",
+      "verdict": "CONFIRMED",
+      "value_found": "distinct (plot,sub_plot): 2010-2012=26 vs 1991-2000=69"
+    },
+    {
+      "item": "[A] 2010-2012 spans about 3 years",
+      "verdict": "CONFIRMED",
+      "value_found": "2010-2012 years = [2010, 2011, 2012]"
+    },
+    {
+      "item": "[STAGE1 marked V] 6 quadrats -> 60 samples per sub-plot",
+      "verdict": "CONTRADICTED",
+      "value_found": "rows per sub-plot-year min/median/max = 1/1.0/1; no per-quadrat data in the open release"
+    }
+  ]
+}

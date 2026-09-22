@@ -26,11 +26,17 @@ awards BBS/E/C/00005189 (2012-2017) and BBS/E/C/000J0300 (2017-2022).
 
 ## Imported screen arithmetic
 
-The screen arithmetic (fit_pca / project / precision_readout / subspace readout /
-BH helper) is imported from meridian-causalbench and not vendored here, so the
-numbers stay byte-identical with the E3 panel.
+The screen arithmetic primitives (fit_pca, project, coefs, offdiag, N_PAIRS) are
+imported from meridian-causalbench causalbench/scripts/03_screen.py via importlib,
+the same pattern as causalbench/scripts/40_screen_norman.py, not vendored here, so
+the numbers stay byte-identical with the E3 panel. The step-0 gate outer loop is
+duplicated in probe_02_step0.py, just as 40_screen_norman.py duplicates it in its
+screen_run. Note: at the recorded commit there is no precision_readout.py; the
+precision readout (coefs, offdiag) and the step-0 metric (mean_ratio_pairs) both
+live in 03_screen.py.
 
-meridian-causalbench commit hash (screen arithmetic imported from): TBD
+meridian-causalbench clone: sibling of research-lab (not inside it).
+meridian-causalbench commit hash (screen arithmetic imported from): 202d5971f46a7333fff7be8563d5f0371475e1b5
 
 ## Data
 

@@ -1,0 +1,189 @@
+# park-grass-crl data MANIFEST
+
+Written by fetch_data.py. Raw data under data/raw/ is gitignored; this manifest is the only tracked file in data/. Each dataset is in its own subfolder because the two ship CSVs with identical names.
+
+## DOI 10.23637/rpg5-species_1991-2000-01
+
+- file: 1991-2000/rpg5_species_1991-2000_01.xlsx
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/rpg5_species_1991-2000_01.xlsx
+  - SHA-256: 06b91da58744862d2a4ee07dfb35e84989030e35a333cbce849d762673762675
+  - size: 489764 bytes
+  - downloaded (UTC): 2026-09-22T11:28:02+00:00
+  - source: direct download
+- file: 1991-2000/01-OAPGspecies9100.zip
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip
+  - SHA-256: b8fea8c662c5dfa438d37b44b3c5a23ead6fea5be4d6cc7584a9fb20e5b349d1
+  - size: 614828 bytes
+  - downloaded (UTC): 2026-09-22T11:28:03+00:00
+  - source: direct download
+- file: 1991-2000/fm_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/fm_factor_data.csv)
+  - SHA-256: e8b9f7f28333984526c37396e48a18a357740709ac9433c3eb6c1c75d027483c
+  - size: 945 bytes
+  - downloaded (UTC): 2026-09-22T11:28:03+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/fym_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/fym_factor_data.csv)
+  - SHA-256: f5e70b69820fb3ca914ec4073ad2cde862aa3eace9eb5bbc380288ba6dd1f454
+  - size: 772 bytes
+  - downloaded (UTC): 2026-09-22T11:28:03+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/k_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/k_factor_data.csv)
+  - SHA-256: 8752b53dd7a3c3e21e990deee41a9f8aa70aa0480036870a0154490fe28cc2ce
+  - size: 797 bytes
+  - downloaded (UTC): 2026-09-22T11:28:03+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/liming_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/liming_factor_data.csv)
+  - SHA-256: 0671c9f619bf3d383cf7496899f89c9c5a574616c73b47c09712ad086b1d3b4a
+  - size: 1808 bytes
+  - downloaded (UTC): 2026-09-22T11:28:03+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/mg_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/mg_factor_data.csv)
+  - SHA-256: 44ecce823e5fddd1804e4939edd1f1043514497c2b664dd502426cc8a452dfa0
+  - size: 563 bytes
+  - downloaded (UTC): 2026-09-22T11:28:03+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/n_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/n_factor_data.csv)
+  - SHA-256: f567e5d32ee6b933bac4e9154181e3107fbbc27e8216e6f3de5df7f9944a9e39
+  - size: 2205 bytes
+  - downloaded (UTC): 2026-09-22T11:28:03+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/na_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/na_factor_data.csv)
+  - SHA-256: 04fb307ddabe6dcc0cf35f7a9dd011afc404783bf136c10d7832cd9265fa0ee5
+  - size: 547 bytes
+  - downloaded (UTC): 2026-09-22T11:28:04+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/notes_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/notes_data.csv)
+  - SHA-256: 168e73fed1d1f7421fb8d247626a9258eb7a94c51edf1591b284b3b410752aa0
+  - size: 1931 bytes
+  - downloaded (UTC): 2026-09-22T11:28:04+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/p_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/p_factor_data.csv)
+  - SHA-256: fe4ee201bdd064702cbd56b4eb45304a9ba40f5b2d77e6810ad00f041b212515
+  - size: 1340 bytes
+  - downloaded (UTC): 2026-09-22T11:28:04+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/pm_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/pm_factor_data.csv)
+  - SHA-256: 5e161ec1d4a0bbebb567b1772d706ae66d1db721f1f51ab97785fa4deabea8c5
+  - size: 678 bytes
+  - downloaded (UTC): 2026-09-22T11:28:04+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/si_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/si_factor_data.csv)
+  - SHA-256: 56ffb5284aabc2961abfbe11b37ed91b173cb66f8748ad6af6eacc9f1fe07d19
+  - size: 536 bytes
+  - downloaded (UTC): 2026-09-22T11:28:04+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/species_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/species_data.csv)
+  - SHA-256: aa0d0cf0fc3f7002d286954f087945755a30a393570113062b61b0a08a73c8e8
+  - size: 467849 bytes
+  - downloaded (UTC): 2026-09-22T11:28:04+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+- file: 1991-2000/species_list_dimension_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/01-OAPGspecies9100.zip (member: rpg5_species_1991-2000_01/species_list_dimension_data.csv)
+  - SHA-256: 18dbb907db7c1d8f37213a0362d53e7856150410c2d128507b75af43519f23ca
+  - size: 6378 bytes
+  - downloaded (UTC): 2026-09-22T11:28:04+00:00
+  - source: extracted from 01-OAPGspecies9100.zip
+
+## DOI 10.23637/rpg5-species_2010-2012-01
+
+- file: 2010-2012/01-OAPGspecies0012.zip
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip
+  - SHA-256: 6c42d2b0989471ac797ad6d786d73f2dbef508bf51fddbb8b35d8fa51b396c03
+  - size: 202940 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: direct download
+- file: 2010-2012/rpg5_species_ 2010-2012_01.xlsx
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01.xlsx)
+  - SHA-256: 55903d511c3e2339faffced18243fc38e7bdafc2990c5683762c28d9eefa052c
+  - size: 172180 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/fm_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/fm_factor_data.csv)
+  - SHA-256: e8b9f7f28333984526c37396e48a18a357740709ac9433c3eb6c1c75d027483c
+  - size: 945 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/fym_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/fym_factor_data.csv)
+  - SHA-256: f5e70b69820fb3ca914ec4073ad2cde862aa3eace9eb5bbc380288ba6dd1f454
+  - size: 772 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/k_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/k_factor_data.csv)
+  - SHA-256: 8752b53dd7a3c3e21e990deee41a9f8aa70aa0480036870a0154490fe28cc2ce
+  - size: 797 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/liming_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/liming_factor_data.csv)
+  - SHA-256: 0671c9f619bf3d383cf7496899f89c9c5a574616c73b47c09712ad086b1d3b4a
+  - size: 1808 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/mg_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/mg_factor_data.csv)
+  - SHA-256: 44ecce823e5fddd1804e4939edd1f1043514497c2b664dd502426cc8a452dfa0
+  - size: 563 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/n_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/n_factor_data.csv)
+  - SHA-256: 1a38dcec43a1ff275015a8d05f531a168319483079cfcc3a59464807cdcfbd61
+  - size: 2210 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/na_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/na_factor_data.csv)
+  - SHA-256: 04fb307ddabe6dcc0cf35f7a9dd011afc404783bf136c10d7832cd9265fa0ee5
+  - size: 547 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/notes_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/notes_data.csv)
+  - SHA-256: fda591d1bd6d546a82c206275687f3d2a87b3959547d4eeebbc00f89809c4dd5
+  - size: 485 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/p_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/p_factor_data.csv)
+  - SHA-256: c0adba2b778659e39befc4ea8e9cd93f2a575f10d8c0e560bc84a42776d11e43
+  - size: 1375 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/pm_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/pm_factor_data.csv)
+  - SHA-256: 5e161ec1d4a0bbebb567b1772d706ae66d1db721f1f51ab97785fa4deabea8c5
+  - size: 678 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/si_factor_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/si_factor_data.csv)
+  - SHA-256: 56ffb5284aabc2961abfbe11b37ed91b173cb66f8748ad6af6eacc9f1fe07d19
+  - size: 536 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/species_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/species_data.csv)
+  - SHA-256: 3db9c23911e894cc5a9a24185f2ea421d1ae9d2e91ec3836af5d13fe01edab44
+  - size: 61948 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip
+- file: 2010-2012/species_list_dimension_data.csv
+  - resolved URL: https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip (member: rpg5_species_ 2010-2012_01/species_list_dimension_data.csv)
+  - SHA-256: a285bd8851243741ad71ed42b21922f7c3585d526ae3b95e07dcb6d06c5943c6
+  - size: 6446 bytes
+  - downloaded (UTC): 2026-09-22T11:28:05+00:00
+  - source: extracted from 01-OAPGspecies0012.zip

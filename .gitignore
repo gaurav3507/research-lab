@@ -22,6 +22,11 @@ venv/
 env/
 .env/
 
-# park-grass-crl raw data (keep the manifest tracked)
+# park-grass-crl: ignore raw data but keep data/MANIFEST.md and the probe result
+# JSONs. The global results/ and data/ rules above exclude the whole directories,
+# so the lane directories are re-included first, then only raw data is re-ignored.
+!lanes/park-grass-crl/data/
 lanes/park-grass-crl/data/*
 !lanes/park-grass-crl/data/MANIFEST.md
+!lanes/park-grass-crl/results/
+!lanes/park-grass-crl/results/**
